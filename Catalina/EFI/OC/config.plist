@@ -9,18 +9,18 @@
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-EC-USBX-DESKTOP.aml</string>
-				<key>Path</key>
-				<string>SSDT-EC-USBX-DESKTOP.aml</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Path</key>
+				<string>SSDT-EC-USBX-DESKTOP.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-SHC0.aml</string>
-				<key>Path</key>
-				<string>SSDT-SHC0.aml</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Path</key>
+				<string>SSDT-SHC0.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -409,12 +409,12 @@
 		</array>
 		<key>Emulate</key>
 		<dict>
-			<key>DummyPowerManagement</key>
-			<true/>
 			<key>Cpuid1Data</key>
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
+			<key>DummyPowerManagement</key>
+			<true/>
 			<key>MaxKernel</key>
 			<string></string>
 			<key>MinKernel</key>
@@ -431,10 +431,10 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
-				<key>Identifier</key>
-				<string>com.apple.iokit.IONetworkingFamily</string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IONetworkingFamily</string>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IONetworkingFamily</string>
 				<key>MaxKernel</key>
 				<string>13.99.99</string>
 				<key>MinKernel</key>
@@ -811,7 +811,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>algrey - cpuid_set_info - GenuineIntel to AuthenticAMD </string>
+				<string>algrey - cpuid_set_info - GenuineIntel to AuthenticAMD</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -1524,7 +1524,7 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideAuxiliary</key>
-			<false/>
+			<true/>
 			<key>PickerAttributes</key>
 			<integer>1</integer>
 			<key>PickerAudioAssist</key>
@@ -1600,10 +1600,10 @@
 			<data></data>
 			<key>PasswordSalt</key>
 			<data></data>
-			<key>ScanPolicy</key>
-			<integer>0</integer>
 			<key>SecureBootModel</key>
 			<string>Default</string>
+			<key>ScanPolicy</key>
+			<integer>0</integer>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1631,7 +1631,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 npci=0x2000 alcid=1</string>
+				<string>debug=0x100 keepsyms=1 npci=0x2000 alcid=1</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -1697,12 +1697,12 @@
 		<dict>
 			<key>AdviseWindows</key>
 			<false/>
-			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
 			<key>MLB</key>
 			<string>C029301084NJG36JC</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 			<key>ROM</key>
 			<data>G/BzXlwj</data>
 			<key>SpoofVendor</key>
