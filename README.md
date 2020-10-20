@@ -1,3 +1,22 @@
+# 前言
+
+该EFI是直接fork自[heyxiaobai](https://github.com/heyxiaobai/MSI-B450m-MORTAR-Hackintosh),本人仅针对个人配置，添加了针对intel ax200网卡的wifi&Bluetooth驱动以及Innie.kext(用于将nvme硬盘外置改内置)
+
+<br>
+
+| 名称                        | 版本               | 链接                                                         |
+| --------------------------- | ------------------ | ------------------------------------------------------------ |
+| AirportItlwm.kext           | v1.0 beta catalina | [itlwm](https://github.com/OpenIntelWireless/itlwm)          |
+| IntelBluetoothFirmware.kext | 1.1.2              | [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) |
+| IntelBluetoothInjector.kext | 1.1.2              | [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) |
+| Innie.kext                  | 1.2.1              | [Innie](https://github.com/cdf/Innie)                        |
+
+<br>
+
+<br>
+
+# 以下内容为源仓库README
+
 ### EFI概述
 
 > 通过 [Dortania](https://dortania.github.io/OpenCore-Desktop-Guide/AMD/zen.html) 定制OpenCore引导，**请自行参考进行一些自定义的修改**
