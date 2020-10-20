@@ -15,6 +15,10 @@
 
 <br>
 
+## 致谢
+
+[heyxiaobai](https://github.com/heyxiaobai/MSI-B450m-MORTAR-Hackintosh)
+
 # 以下内容为源仓库README
 
 ### EFI概述
