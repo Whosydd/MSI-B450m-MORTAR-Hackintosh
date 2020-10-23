@@ -11,6 +11,8 @@
 | IntelBluetoothInjector.kext | 1.1.2              | [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) |
 | Innie.kext                  | 1.2.1              | [Innie](https://github.com/cdf/Innie)                        |
 
+<br>
+
 ## 致谢
 
 [heyxiaobai](https://github.com/heyxiaobai/MSI-B450m-MORTAR-Hackintosh)
